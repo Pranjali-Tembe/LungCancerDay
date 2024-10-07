@@ -1,0 +1,151 @@
+#section1 {
+    background-color: #ffffff;
+    /*background-image: url("blue_background.jpg");*/
+    height: 600px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  /*font-size: 30px;*/
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-left: 20px;
+}
+
+sub {
+    font-size: x-small;
+}
+
+#heading {
+   /* margin-top: 50px;*/
+    background-color: #ffffff;
+    /*height: 300px;*/
+    text-align: center;
+}
+
+img.lungImage{
+    float: left;
+    height: 600px;
+}
+
+.cigarette-box-image {
+    height: auto;
+    width: 20%;
+}
+
+#cigarettes-trash-container {
+    display: block;
+    width: 50%;
+    float: left;
+    height: 600px;
+}
+
+#main-container {
+    height: 600px;
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width:auto;
+    background-color: #ffffff;
+    background-image: url("white_background.jpg");
+    background-size: cover;*/
+}
+
+#countervalue{
+    width: 100px;
+    height: 200px;
+}
+
+#cigarettes {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    /* float: left; */
+    display: table;
+    /* background-color: #bbb; */
+    /* background-image: url(test.png); */
+    /* background-size: cover; */
+    /* padding-left: 155px; */
+    /*padding-top: 800px;*/
+}
+
+.trash-image {
+    width: 100%;
+    height: auto;
+}
+
+#trash {
+    width: 50%;
+    /* height: 250px; */
+    /* display: list-item; */
+    position: relative;
+        left: -40px;
+    margin: auto;
+    /* float: none; */
+    /* background-image: url(trash.png); */
+    /* background-color: #ddd; */
+    /* padding-top: 400px; */
+    background-size: cover;
+    /* padding-left: 50px; */
+
+}
+
+#lung {
+
+    float: left;
+    display: block;
+    position: relative;
+/*    align-items: right;*/
+    width: 50%;
+    height: 600px;
+    background-image: url("good lungs 184.jpeg");
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 1000px; */
+
+}
+
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+  border-radius: 50px;
+}
+
+#myBar {
+  width: 1%;
+  height: 20px;
+  background-color: green;
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+body {
+  /*cursor: url("https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png"),auto;*/
+ /* cursor: url("boot.png"),auto;*/
+ /* cursor: grab*/
+
+ /* height: 10%;*/
+}
+
+
+.fall {
+  animation: fallAnimation 1s forwards;
+}
+
+@keyframes fallAnimation {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(1000px);
+  }
+}
